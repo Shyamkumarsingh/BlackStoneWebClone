@@ -1,0 +1,466 @@
+/* font-family: 'Inter', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', 'Montserrat', 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: white;
+    width: 100vw;
+    height: 100vh;
+}
+
+#nav1 {
+    width: 100vw;
+    background-color: rgba(239, 239, 239, 0.878);
+}
+
+.nub {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav1,
+.ul1 {
+    display: flex;
+    flex-direction: row;
+}
+
+#nav1,
+.ul1,
+li {
+    list-style: none;
+}
+
+#nav1,
+.ul1,
+.li1 {
+    padding: 5px 20px 5px 10px;
+    /* color:rgb(190, 198, 201); */
+    text-decoration: none;
+}
+
+.a2 {
+    color: grey;
+}
+
+#sidenav1 {
+    padding-top: 8px;
+    display: flex;
+    float: right;
+    padding-left: 950px;
+}
+
+
+/* #nav2{
+    background-color: white; 
+} */
+
+#logo {
+    font-size: 2rem;
+    color: black;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
+
+#nav2,
+.ul1,
+.li2,
+.a2 {
+    padding: 10px 20px 5px 20px;
+    /* color:rgb(190, 198, 201); */
+    color: grey;
+    text-decoration: none;
+    font-size: 19px;
+}
+
+.container1 {
+    width: 100vw;
+    height: 600px;
+    background-color: black;
+}
+
+.side1 {
+    /* margin:50px 30px 20px 10px; */
+    padding: 80px 100px 80px 50px;
+    row-gap: 20px;
+}
+
+#h2 {
+    color: red;
+    font-size: 16px;
+}
+
+#h1 {
+    /* marging:70px; */
+    /* padding:10px; */
+    padding-top: 30px;
+    padding-bottom: 50px;
+    color: white;
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Roboto Mono;
+}
+
+#h3 {
+    color: white;
+    font-size: 17px;
+}
+
+.bap {
+    /* border:2px solid red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.side2img {
+    padding-right: 5%;
+}
+
+.small {
+    background-color: white;
+    color: black;
+    /* width:30%; */
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 30px;
+}
+
+#ds {
+    color: red;
+}
+
+
+/* #small{
+    font-size:40px;
+} */
+
+.container2 {
+    margin-top: 50px;
+    width: 100vw;
+    display: flex;
+    /* position:relative;
+    bottom: 293px; */
+}
+
+.card1 {
+    width: 28vw;
+    margin: 10px;
+    padding: 35px 30px;
+}
+
+.head2 {
+    color: black;
+    font-size: 35px;
+}
+
+.p1 {
+    color: black;
+}
+
+.slide {
+    height: 2px;
+    width: 100%;
+    margin-top: 30px;
+    background-color: black;
+}
+
+.slide:hover {
+    /* transition:width 2s ease-in-out 0s; */
+    background-color: orange;
+}
+
+
+/* @keyframes shyam {
+    from
+} */
+
+.container3 {
+    background-color: rgb(255, 206, 0);
+    width: 100vw;
+    margin-top: 50px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    display: flex;
+    /* position:relative;
+    bottom: 293px; */
+    height: 500px;
+}
+
+.head1 {
+    padding-bottom: 20px;
+}
+
+.paragraph {
+    width: 40%;
+    margin: 10px;
+    padding: 100px 100px 0px 100px;
+    gap: 1px;
+    font-size: 18px;
+}
+
+.ra {
+    padding-top: 30px;
+}
+
+.video {
+    width: 40%;
+    height: 100%;
+}
+
+
+/* .container4{
+    border:2px solid black;
+    display:flex; 
+    flex-direction: row;
+    width:100%;
+    height:300px;
+  
+}
+.head3{
+    color:black;
+    font-size: 28px;
+}
+#ds2{
+    color:red;
+}
+.p2{
+    color:black;
+}
+.head4{
+    border:2px solid black;
+    width:400px;
+}
+.img4{
+    border:2px solid black;
+    width:150px;
+    
+} */
+
+.container4 {
+    /* border:2px solid red; */
+    display: flex;
+    width: 100vw;
+    height: 232px;
+    justify-content: center;
+    /* position: relative; */
+    /* bottom:260px; */
+    padding-top: 40px;
+}
+
+.head4 {
+    color: black;
+    font-size: 28px;
+}
+
+#ds2 {
+    color: red;
+    margin-right: 20px;
+}
+
+.rap {
+    padding-top: 30px;
+}
+
+.p4 {
+    color: black;
+}
+
+.img4 {
+    width: 10vw;
+    height: fit-content;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+.paragraph2 {
+    width: 400px;
+    margin-left: 20px;
+}
+
+.content4 {
+    height: fit-content;
+    /* border: 1px solid red; */
+}
+
+.ram {
+    display: flex;
+    width: 40vw;
+}
+
+.container5 {
+    background-color: rgb(22, 22, 22);
+    padding: 25px 25px 25px 25px;
+    /* position:relative; */
+    /* bottom:230px; */
+    height: fit-content;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+.content51 {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+
+/* .content52{
+    /* border:2px solid red; */
+
+
+/* text-align:left; 
+} */
+
+.a5 {
+    color: white;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+}
+
+#main5,
+#head511,
+#head512,
+#head513,
+#head514,
+#head515,
+#head516,
+#head517,
+#head518,
+#head519 {
+    color: white;
+}
+
+#main5 {
+    padding-left: 4%;
+}
+
+.card51 {
+    /* border:2px solid red; */
+    margin: 20px 25px 20px 25px;
+    /* text-align: left; */
+}
+
+.slide51 {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+    /* margin:4px 14px 10px 0px; */
+    margin: 5px 10px 7px 0px;
+}
+
+footer {
+    width: 100vw;
+    height: fit-content;
+    background-color: white;
+    padding: 20px 45px 20px 45px;
+}
+
+.pp1,
+#pp2 {
+    color: black;
+    letter-spacing: 0.8px;
+}
+
+.about1 {
+    width: 100vw;
+    height: fit-content;
+    /* border: 2px solid red; */
+    margin: 20px 0px 20px 0px;
+}
+
+#pp2 {
+    margin-bottom: 30px;
+}
+
+.container6 {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content61 {
+    width: 45%;
+    /* border: 2px solid red; */
+}
+
+#logoo6 {
+    color: white;
+}
+
+#content6111 {
+    color: white;
+}
+
+.slide6 {
+    background-color: white;
+    /* border:1px solid white; */
+    /* height:20%; */
+    width: 1px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.content62 {
+    width: 45%;
+    /* border: 2px solid red; */
+    display: flex;
+}
+
+.content622,
+.content621 {
+    margin: 0% 10% 5% 10%;
+    padding: 10px;
+    /* border:1px solid red; */
+    height: 100%;
+}
+
+.logo6 {
+    margin-bottom: 5%;
+    /* padding:10% 0% 5% 5%; */
+    /* border:1px solid red; */
+}
+
+.content611 {
+    width: 100%;
+    height: fit-content;
+    /* border: 1px solid red; */
+    font-size: larger;
+}
+
+.a6,
+.a7 {
+    color: white;
+    text-decoration: none;
+}
+
+#sp1,
+#sp2 {
+    color: red;
+}
+
+.li6,
+.li7 {
+    list-style: none;
+    margin-top: 10px;
+}
